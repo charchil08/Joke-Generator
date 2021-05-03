@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  background-color: rgba(2, 13, 163, 0.9);
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  height: 40vh;
+  width: 80vw;
+  /* margin: auto; */
+  background-color: slateblue;
+  box-shadow: 8px 5px 10px grey;
+  /* center align */
+  display: grid;
+  place-items: center;
+}
+
+.joke-box {
+    
+}
+
+.heading {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+#jokes {
+    font-size: 1.24rem;
+    text-align: center;
+}
+
+#joke-btn !important {
+    text-align: center;
+}
+
+#footer {
+    font-size: 1rem;
+    color: burlywood;
+}
